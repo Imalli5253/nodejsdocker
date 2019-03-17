@@ -1,6 +1,6 @@
 job('NodeJsMyDemo')
 {
-    scm('git'){
+    scm{
      git('https://github.com/Imalli5253/nodejsdocker.git')   
     }
     triggers{
