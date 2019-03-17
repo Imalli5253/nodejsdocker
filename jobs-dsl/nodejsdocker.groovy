@@ -1,4 +1,4 @@
-job{
+job('NodeJSDockerBuild'){
     scm{
         git('https://github.com/Imalli5253/nodejsdocker.git')
     }
@@ -18,5 +18,6 @@ job{
             createFingerprints(false)
             skipDecorate()
         }
- }   
+ }
+
 }
