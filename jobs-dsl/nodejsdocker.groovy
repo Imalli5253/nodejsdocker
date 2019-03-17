@@ -8,7 +8,7 @@ job{
     wrappers{
         nodejs('nodejs')
     }
- step{
+ steps{
        dockerBuildAndPublish {
             repositoryName('nagamalli/dockerpublish')
             tag('${GIT_REVISION,length=9}')
